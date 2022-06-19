@@ -110,9 +110,13 @@ var multiplicationTable = [
   "10 × 10 = 100"
 ];
 
-// for (var i = 0; i < multiplicationTable.length; i++) {
-//   console.log(multiplicationTable[i]);
-// }
+console.log("Цикл for");
+
+for (var i = 0; i < multiplicationTable.length; i++) {
+  console.log(multiplicationTable[i]);
+}
+
+console.log("Цикл while");
 
 var n = 0;
 
